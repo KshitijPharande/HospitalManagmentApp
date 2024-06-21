@@ -1,0 +1,76 @@
+/* Example CSS adjustments */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust height as per your design */
+}
+
+.left-image {
+  max-width: 160%; /* Ensure image does not exceed container width */
+  max-height: 100%; /* Ensure image does not exceed container height */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  border-radius: 15px 0 0 15px; /* Rounded corners for a smoother look */
+  margin-top: 0%;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.facility-cards {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.facility-cards .card {
+  border: none;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.facility-cards .card:hover {
+  transform: translateY(-5px);
+}
+
+.facility-cards .card-body {
+  padding: 20px;
+}
+
+.facility-cards .card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007aa5;
+  margin-bottom: 15px;
+}
+
+.facility-cards .card-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .facility-cards .card {
+    margin-bottom: 30px;
+  }
+}
+
+.text-center img {
+  max-width: 150px; /* Limit maximum width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 60px;
+}
+
+/* Optional: Adjust margins or paddings if needed */
+.logo-container {
+  margin-bottom: 20px;
+}

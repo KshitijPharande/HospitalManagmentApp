@@ -1,0 +1,57 @@
+@media only screen and (max-width: 700px) {
+
+    /* navbar */
+    .nav-inner-container {
+        margin-left: 290px;
+    }
+
+    /* login */
+
+    .doc-log-gridy {
+        margin-left: 60px;
+    }
+
+    .doc-btn {
+        margin-top: 50px;
+        height: 50px;
+        width: 200px;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 12px;
+        margin-left: 160px;
+        color: #007aa5;
+        box-shadow: 0px 5px 7px 5px rgb(201, 141, 141);
+        margin-bottom: 50px;
+    }
+
+
+    /* register */
+    .selection-btn {
+        margin-left: 140px;
+    }
+
+    /* patient-dashboard */
+    .patient-dashboard {
+        margin-top: 100px;
+        margin-right: 110px;
+    }
+
+    .modal-dialog {
+        margin-left: 100px;
+    }
+
+    /* nav dashboard */
+
+    .link-value {
+        margin-left: 20.5rem;
+    }
+
+    .patient-btn-div {
+        position: relative;
+        top: 60px;
+        left: 0px;
+        margin-left: 100px;
+    }
+
+
+}

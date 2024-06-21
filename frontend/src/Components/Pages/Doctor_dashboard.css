@@ -1,0 +1,66 @@
+/* Doctor_dashboard.css */
+
+/* General styles */
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1976d2; /* Blue color for navbar */
+  color: #ffffff; /* White text color */
+  padding: 10px 0;
+  text-align: center; /* Center align text */
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Content area */
+.content-area {
+  margin-left: 200px; /* Offset for the sidebar */
+  padding-top: 20px; /* Adjust padding as needed */
+  max-width: calc(100% - 200px); /* Maximum width minus sidebar width */
+  margin: 0 auto; /* Center align content */
+}
+
+/* Table styles */
+.table {
+  background-color: #ffffff; /* White background for table */
+  width: 100%;
+  max-width: 100%; /* Ensure table does not overflow */
+}
+
+.table-dark {
+  background-color: #343a40; /* Dark grey background for table headers */
+  color: #ffffff; /* White text color for table headers */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa; /* Light grey background for odd rows */
+}
+
+.table-striped tbody tr:hover {
+  background-color: #e9ecef; /* Lighter grey background on hover */
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #1976d2; /* Blue primary button */
+  border-color: #1976d2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0d47a1; /* Darker blue on hover */
+  border-color: #0d47a1;
+  color: white;
+}

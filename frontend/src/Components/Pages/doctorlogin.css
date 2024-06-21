@@ -1,0 +1,85 @@
+/* doctorlogin.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+  padding: 20px; /* Add some padding to the container */
+}
+
+.image-container {
+  height: 100%;
+}
+
+.left-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.facility-cards {
+  margin-top: 30px;
+}
+
+.facility-cards .card {
+  margin-bottom: 20px;
+}
+
+.facility-cards .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* New styles for the logo */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  width: 100px; /* Adjust the width to make the logo smaller */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.logo-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin: 0; /* Ensure there is no extra margin */
+}
+
+.logo-container p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin: 0; /* Ensure there is no extra margin */
+  padding: 0; /* Ensure there is no extra padding */
+}

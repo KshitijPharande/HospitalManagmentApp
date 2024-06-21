@@ -1,0 +1,26 @@
+/* Navbar */
+.navbar {
+  background-color: #1976d2; /* Blue color for healthcare theme */
+  color: #ffffff; /* White text color */
+  font-weight: bold;
+  padding: 15px 0; /* Increased padding for thickness */
+}
+
+.Logo_name {
+  font-size: 30px;
+  color: #ffffff; /* White color for logo text */
+}
+
+.link-name {
+  font-size: 18px; /* Slightly smaller font size */
+  font-weight: bold;
+  color: #ffffff; /* White text color */
+  text-decoration: none;
+  transition: background-color 0.3s, border-radius 0.3s;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.link-name:hover {
+  background-color: #0d47a1; /* Darker blue on hover */
+}

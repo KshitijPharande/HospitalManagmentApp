@@ -1,0 +1,135 @@
+/* Patient_dashboard.css */
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #e0e0e0; /* Light grey border for cards */
+}
+
+.navbar {
+  z-index: 1000;
+  position: relative;
+  background-color: #1976d2; /* Blue color for healthcare theme */
+  color: #ffffff; /* White text color */
+}
+
+.sidebar {
+  margin-top: 56px; /* Adjust based on the height of your navbar */
+  background-color: #343a40; /* Dark grey background for sidebar */
+  color: white; /* White text color */
+  padding: 20px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: 200px;
+  top: 0;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  color: white; /* White color for links in the sidebar */
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+.sidebar a:hover {
+  background-color: #495057; /* Darker grey background on hover */
+  color: #adb5bd; /* Light grey text color on hover */
+}
+
+.col-md-10 {
+  margin-left: 200px; /* Offset for the sidebar */
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #1976d2; /* Blue primary button */
+  border-color: #1976d2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0d47a1; /* Darker blue on hover */
+  border-color: #0d47a1;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red danger button */
+  border-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+  border-color: #bd2130;
+  color: white;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #ffffff; /* White background for table */
+  border-collapse: separate;
+  border-spacing: 0 15px; /* Add spacing between rows */
+}
+
+.table th,
+.table td {
+  padding: 1.25rem; /* Increased padding for better spacing */
+  vertical-align: middle; /* Center text vertically */
+  border-top: none;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #1976d2; /* Blue background for table header */
+  color: #ffffff; /* White text color for table header */
+}
+
+.table tbody tr {
+  background-color: #ffffff; /* White background for table rows */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); /* Add subtle shadow for separation */
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1; /* Slightly darker grey on hover */
+}
+
+.table tbody td {
+  color: #495057; /* Dark grey text color for table body */
+  border-top: none;
+}
+
+.table tbody td button {
+  margin: 0;
+}
+
+.card-header {
+  background-color: #1976d2; /* Blue background for card header */
+  color: white; /* White text color for card header */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Increased font size for card title */
+}
