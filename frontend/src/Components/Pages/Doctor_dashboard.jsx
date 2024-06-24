@@ -14,7 +14,7 @@ export default function Doctor_dashboard() {
   const [users, setUsers] = useState([]);
   const [status, setStatus] = useState("");
   const [selectedAppointment, setSelectedAppointment] = useState(null);
-  const [sidebarVisible, setSidebarVisible] = useState(false); // State for sidebar visibility
+  const [sidebarVisible, setSidebarVisible] = useState(true); // State for sidebar visibility
   const [modalVisible, setModalVisible] = useState(false); // State for modal visibility
   const [currentPage, setCurrentPage] = useState(1); // State for current page
   const [appointmentsPerPage] = useState(5); // Number of appointments per page

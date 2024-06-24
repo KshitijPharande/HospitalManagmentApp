@@ -15,7 +15,7 @@ export default function Patient_dashboard() {
   const [doctors, setDoctors] = useState([]);
   const [doctorId, setDoctorId] = useState("");
   const [date, setDate] = useState("");
-  const [sidebarVisible, setSidebarVisible] = useState(false); // State for sidebar visibility
+  const [sidebarVisible, setSidebarVisible] = useState(true); // State for sidebar visibility
   const local = JSON.parse(localStorage.getItem("uid"));
   const patient = { name: local.name, email: local.email, phone: local.phone };
 
